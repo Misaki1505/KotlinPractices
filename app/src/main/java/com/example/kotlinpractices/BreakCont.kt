@@ -7,4 +7,12 @@ fun main(args: Array<String>) {
             break
         println("half of $number is ${number/2}")
     }
+
+    loop@for(i in 1..10) {
+        for(j in 1..10) {
+            if(i % 3 ==0)
+                break@loop //continue@loop to continue except value i=3
+            println("$i, $j")
+        }
+    }
 }
