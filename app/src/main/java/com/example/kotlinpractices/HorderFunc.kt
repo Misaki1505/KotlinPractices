@@ -12,5 +12,5 @@ fun main(args: Array<String>) {
     println(clients.sortedBy { it[it.length-1] })
 
     val ints = listOf(295, 895, 784, 126, 542, 982)
-    println(ints.maxBy { it.toString()[1].toInt() })
+    println(ints.maxBy { it / 10 % 10 })
 }
