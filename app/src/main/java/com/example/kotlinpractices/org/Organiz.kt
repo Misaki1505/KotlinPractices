@@ -1,5 +1,5 @@
 package com.example.kotlinpractices.org
 
-fun main(args: Array<String>) {
-    println("My first package")
+fun hi() {
+    println("Hello how are you?")
 }
